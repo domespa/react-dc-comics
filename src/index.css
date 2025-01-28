@@ -42,11 +42,28 @@ header img {
   gap: 20px;
 }
 
+.nav-header li {
+  position: relative;
+}
+
 .nav-header a {
   text-decoration: none;
   color: #464646;
   font-size: 14px;
   font-weight: 600;
+}
+
+.nav-header li:hover::after {
+  content: "";
+  display: block;
+  height: 6px;
+  width: auto;
+  margin: auto;
+  background-color: #0282f9;
+  position: absolute;
+  bottom: -39px;
+  left: 0;
+  right: 0;
 }
 
 /*-------------
