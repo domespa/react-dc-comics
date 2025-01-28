@@ -61,7 +61,7 @@ header img {
   margin: auto;
   background-color: #0282f9;
   position: absolute;
-  bottom: -39px;
+  bottom: -6vh;
   left: 0;
   right: 0;
 }
@@ -136,6 +136,10 @@ footer a {
   font-weight: 600;
 }
 
+footer a:hover {
+  color: white;
+}
+
 footer ul {
   list-style: none;
   padding-bottom: 20px;
@@ -171,8 +175,13 @@ button {
   font-size: 20px;
 }
 
+button:hover {
+  transform: scale(1.1);
+}
+
 .cont-foot-bot img {
   padding-right: 10px;
+  cursor: pointer;
 }
 
 .cont-foot-bot img:first-of-type {
