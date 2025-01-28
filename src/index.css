@@ -48,3 +48,19 @@ header img {
   font-size: 14px;
   font-weight: 600;
 }
+
+/*-------------
+    MAIN
+-------------*/
+main {
+  background-color: #1c1c1c;
+  color: white;
+  min-height: 100px;
+}
+
+main h3 {
+  padding-top: 30px;
+}
+/*-------------
+    FOOTER
+-------------*/

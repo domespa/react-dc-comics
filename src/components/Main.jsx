@@ -1,3 +1,9 @@
 export default function Main() {
-  return <main>ww</main>;
+  return (
+    <main>
+      <div className="container">
+        <h3>Content goes here</h3>
+      </div>
+    </main>
+  );
 }
