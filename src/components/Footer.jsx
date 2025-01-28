@@ -110,7 +110,7 @@ export default function Footer() {
       <div className="footer-bot">
         <div className="container">
           <div className="cont-foot-bot">
-            <button>SIGN-UP NOW</button>
+            <button>SIGN-UP NOW!</button>
             <div className="social-button">
               <span>
                 <a href="#">FOLLOW US</a>
