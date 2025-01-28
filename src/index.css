@@ -88,15 +88,16 @@ footer {
   background-color: #0282f9;
   padding: 30px 0;
   height: auto;
+  color: white;
 }
 
 .footer-icons {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   width: 100%;
 }
 
-footer span {
+.footer-top span {
   padding-left: 14px;
 }
 
@@ -188,4 +189,7 @@ button {
 
 .cont-foot-bot a {
   color: rgb(0, 98, 255);
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
 }
