@@ -64,3 +64,29 @@ main h3 {
 /*-------------
     FOOTER
 -------------*/
+footer {
+  color: white;
+}
+.footer-top {
+  background-color: #0282f9;
+  padding: 40px 0;
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+footer span {
+  padding-left: 14px;
+}
+
+footer img {
+  width: 50px;
+}
+
+footer div {
+  display: flex;
+  align-items: center;
+}
