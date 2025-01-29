@@ -117,7 +117,6 @@ footer {
 
 .list-foot {
   display: flex;
-  flex-wrap: wrap;
   height: 100%;
 }
 
