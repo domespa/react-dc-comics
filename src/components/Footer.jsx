@@ -21,7 +21,6 @@ export default function Footer() {
             <div>
               <img
                 className="logo-foot"
-                s
                 src="img/dc-logo-bg.png"
                 alt="DC Logo"
               />

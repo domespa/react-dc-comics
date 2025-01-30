@@ -67,6 +67,20 @@ header img {
 }
 
 /*-------------
+    HERO
+-------------*/
+
+.hero {
+  height: 400px;
+  background-position: contain;
+  overflow: hidden;
+}
+
+.hero img {
+  width: 100%;
+}
+
+/*-------------
     MAIN
 -------------*/
 main {
