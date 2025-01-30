@@ -1,8 +1,10 @@
+import ProductsCont from "./ProductsCont";
+
 export default function Main() {
   return (
     <main>
       <div className="container">
-        <h3>Content goes here</h3>
+        <ProductsCont />
       </div>
     </main>
   );
