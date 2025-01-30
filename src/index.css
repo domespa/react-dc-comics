@@ -20,6 +20,54 @@ body {
 }
 
 /*-------------
+    BUTTONS
+-------------*/
+.btn-rel {
+  position: relative;
+}
+
+.btn-abs {
+  position: absolute;
+  left: 0;
+  top: -50px;
+  margin: 10px 0;
+  padding: 12px 26px;
+  background-color: #0282f9;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 600;
+  border: #0282f9;
+}
+
+.btn-class {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-cards {
+  margin: 10px 0;
+  padding: 12px 40px;
+  background-color: #0282f9;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  border: #0282f9;
+}
+
+footer button {
+  margin: 20px 0;
+  padding: 10px 20px;
+  background-color: transparent;
+  color: white;
+  border: solid 4px;
+  border-color: #0282f9;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/*-------------
     HEADER
 -------------*/
 
@@ -113,6 +161,13 @@ main {
   object-position: top;
   aspect-ratio: 1;
 }
+
+.card h4 {
+  color: #808080;
+  font-size: 12px;
+  padding-top: 6px;
+  padding-bottom: 14px;
+}
 /*-------------
     FOOTER
 -------------*/
@@ -201,18 +256,7 @@ footer ul {
   align-items: center;
 }
 
-button {
-  margin: 20px 0;
-  padding: 10px 20px;
-  background-color: transparent;
-  color: white;
-  border: solid 4px;
-  border-color: #0282f9;
-  cursor: pointer;
-  font-size: 20px;
-}
-
-button:hover {
+footer button:hover {
   transform: scale(1.1);
 }
 

@@ -9,7 +9,10 @@ export default function ProductsCont() {
           {comics.map((comic) => {
             return (
               <div className="col" key={comic.id}>
-                <ProductCard thumb={comic.thumb} title={comic.title} />
+                <ProductCard
+                  thumb={comic.thumb}
+                  title={comic.series.toUpperCase()}
+                />
               </div>
             );
           })}
